@@ -10,8 +10,8 @@
     "ext-gettext": "*",
 	"ext-pdo": "*",
     "ext-json": "*",
-    "peppeocchi/php-cron-scheduler": "^4.0",
-    "php-curl-class/php-curl-class": "^2.0"
+    "php-curl-class/php-curl-class": "^2.0",
+    "peppeocchi/php-cron-scheduler": "^3.1"
   },
   "authors": [
     {

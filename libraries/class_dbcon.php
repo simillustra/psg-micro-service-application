@@ -13,7 +13,7 @@
 	you agreed to when purchasing this item.
 */
 
-class HezecomDB extends PDO
+class Database extends PDO
 {
     private $error;
     private $sql;
@@ -236,9 +236,10 @@ class HezecomDB extends PDO
         }
     }
 
-    public function get_last_insert_id(){
+    public function get_last_insert_id()
+    {
         $stmt = $this->query("SELECT LAST_INSERT_ID()");
-        return  $stmt->fetchColumn();
+        return $stmt->fetchColumn();
     }
 
     public function start()
@@ -259,9 +260,9 @@ class HezecomDB extends PDO
 
 }
 
-class HDB extends HezecomDB
+class HDB extends Database
 {
-    public static $instance = NULL;
+    public static $instance = null;
 
     public function __construct()
     {
@@ -270,10 +271,11 @@ class HDB extends HezecomDB
     public static function hus()
     {
 
-        if (!self::$instance) {
-            self::$instance = new HezecomDB("" . DB_TYPE . ":host=" . LOCALHOST . ";dbname=" . DB_NAME . "",
+        if (is_null(self::$instance) === true) {
+            self::$instance = new Database("" . DB_TYPE . ":host=" . LOCALHOST . ";port=" . DB_PORT . ";dbname=" . DB_NAME . "",
                 DB_USERNAME, DB_PASSWORD);
         }
+
         return self::$instance;
     }
 }

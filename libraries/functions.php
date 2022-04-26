@@ -14,7 +14,7 @@ you agreed to when purchasing this item.
 if (!defined('VALID_DIR'))
     die('You are not allowed to execute this file directly');
 
-require_once('../vendor/autoload.php');
+require_once('vendor/autoload.php');
 
 use \Curl\Curl;
 

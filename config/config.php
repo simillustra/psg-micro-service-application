@@ -21,19 +21,21 @@ $absolutep = str_replace('config', '', $npath);
 
 define('APP_MODE', 'PROD');
 //Get Heroku ClearDB connection information
-$DATABASE_SERVER = APP_MODE == 'DEV' ? 'localhost' : "db4free.net";
-$DATABASE_USERNAME = APP_MODE == 'DEV' ? 'root' : "orange_credit_da";
-$DATABASE_PASSWORD = APP_MODE == 'DEV' ? 'S!m14526' : "@ORANG2367*()23";
-$DATABASE_NAME = APP_MODE == 'DEV' ? 'orangec1_micolending' : "orange_credit";
+$DATABASE_SERVER = APP_MODE == 'DEV' ? 'localhost' : "psg-database-2.c25mdhmpiy39.us-east-1.rds.amazonaws.com";
+$DATABASE_USERNAME = APP_MODE == 'DEV' ? 'root' : "psgAdmin2022";
+$DATABASE_PASSWORD = APP_MODE == 'DEV' ? '' : "S!m14526%&%";
+$DATABASE_NAME = APP_MODE == 'DEV' ? 'asfa' : "psgDatabaseServer";
 
+$DATABASE_PORT = 3306;
 
 define('LOCALHOST', $DATABASE_SERVER);
 define('DB_USERNAME', $DATABASE_USERNAME);
 define('DB_PASSWORD', $DATABASE_PASSWORD);
 define('DB_NAME', $DATABASE_NAME);
+define('DB_PORT', $DATABASE_PORT);
 
 define('DB_TYPE', 'mysql');
-define('H_TITLE', 'ORANGE CREDIT MICRO LENDING');
+define('H_TITLE', 'POULTRY SERVICE GROUP');
 //PAYSTACK CONFIG
 define('STORE_STATUS', 'development');
 define('BUSINESS_PLAN_FEE', 500);
@@ -62,7 +64,7 @@ define('AFRICAN_TALKING_SANDBOX', 'https://api.sandbox.africastalking.com/versio
 define('ORANGE_CREDIT_PASSWORD_HASH', '*&ABCDEFGHIJKLMNOPQRSTUVWXYZ@#$%&abcdefghijklmnopqrstuvwxyz0123456789"');
 
 define('H_ADMIN_ACCOUNT', '10012345678');
-define('H_ADMIN_ACCOUNT_NAME', 'ORANGE CREDIT INC');
+define('H_ADMIN_ACCOUNT_NAME', 'PSG LIMITED');
 define('H_ADMIN_ACCOUNT_ID', 100001);
 
 define('PAGINATION_TYPE', 'Normal');//Normal|Jquery

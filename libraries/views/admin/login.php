@@ -26,7 +26,7 @@
                             <img src="<?php echo H_THEME; ?>/images/logo.jpg" width="100"  height="100" class="img-circle border p-1" />
                         </div>
                         <div class="login-logo">
-                            <a href="<?php echo H_CLIENT; ?>"><b>Orange</b>Credit</a>
+                            <a href="<?php echo H_CLIENT; ?>"><b>PSG-</b>LIMITED</a>
                             <h3>Micro-lending <strong>Platform</strong></h3>
                         </div><!-- /.login-logo -->
                         <div class="login-box-body">
