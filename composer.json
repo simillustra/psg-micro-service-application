@@ -1,0 +1,22 @@
+{
+  "name": "psg/marketplace",
+  "description": "House Africa MarketPlace API",
+  "require": {
+    "africastalking/africastalking": "^2.4",
+    "giggsey/libphonenumber-for-php": "^8.12",
+    "brick/phonenumber": "^0.2.2",
+	"vlucas/phpdotenv": "5",
+    "guzzlehttp/guzzle": "6.5.5",
+    "ext-gettext": "*",
+	"ext-pdo": "*",
+    "ext-json": "*",
+    "peppeocchi/php-cron-scheduler": "^4.0",
+    "php-curl-class/php-curl-class": "^2.0"
+  },
+  "authors": [
+    {
+      "name": "S.A.V.I.O.U.R",
+      "email": "S.A.V.I.O.U.R@SIMILLUSTRA.COM"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+vendor/
+.project
+.buildpath
+.settings
+.*.swp
+_vimrc_local.vim
+.sass-cache
+test/coverage
+.idea/
+vendor
+db/
