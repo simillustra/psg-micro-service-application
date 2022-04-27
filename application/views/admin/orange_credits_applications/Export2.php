@@ -15,7 +15,7 @@ $etype = get('etype');
 $excel = '
 	<p style="font-family:arial; font-size:18px;" align="left">
 	<strong style="font-family:arial;">' . LANG_REPORT_TITLE . '</strong><br>' . LANG_REPORT_SUB_TITLE . '<br>
-	<strong>' . LANG_REPORT_TABLE . '</strong> Orange Credits Applications</p>';
+	<strong>' . LANG_REPORT_TABLE . '</strong> PSGs Applications</p>';
 $excel .= '
 	<table border="1" cellspacing="0" width="100%" style="font-family:arial; font-size:14px;" cellpadding="5">
     <tr>

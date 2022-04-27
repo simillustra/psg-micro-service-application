@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     <div class="wrapper">
 
         <header class="main-header">
-            <a href="<?php echo H_ADMIN; ?>" class="logo"><b>Orange</b>Credit</a>
+            <a href="<?php echo H_ADMIN; ?>" class="logo"><b>PSG</b>LIMITED</a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top" role="navigation">
                 <!-- Sidebar toggle button-->

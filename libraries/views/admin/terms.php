@@ -25,7 +25,7 @@
         <div class="clr"></div>
     </div><!--/ Codrops top bar -->
     <header>
-        <h1 class="col-xs-0 hidden-xs">Welcome to <span>Orange Credit</span></h1>
+        <h1 class="col-xs-0 hidden-xs">Welcome to <span>PSG</span></h1>
         <h2 class="col-xs-0 hidden-xs">...helping dreams come alive.</h2>
         <p class="codrops-demos col-xs-0 hidden-xs">
             <a href="<?php echo H_LOGIN ;?>">Home</a>
@@ -67,7 +67,7 @@
 		<div class="row">
 		  <div class="col-md-12 mx-auto">
 			<div class="card card-body text-left mt-5">
-			  <h1 class="heading display-5 pb-3">Orange Credit Service Terms for Payments with Loan Option</h1>
+			  <h1 class="heading display-5 pb-3">PSG Service Terms for Payments with Loan Option</h1>
 				<?php require_once (H_THEME.'/data/privacy.php')?>
               
 			</div>

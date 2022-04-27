@@ -35,7 +35,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
         <?php } ?>
         <div class="box">
             <div class="box-header with-border">
-                <h3 class="box-title">Orange Credit Micro Loan Request</h3>
+                <h3 class="box-title">PSG Micro Loan Request</h3>
                 <ul class="nav pull-right">
                     <?php if ($_SESSION['H_USER_SESSION_POSITION'] == 5) { ?>
                         <?php if (!empty($kyc_approval) && $kyc_approval->kyc_status == 'APPROVED') { ?>

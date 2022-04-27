@@ -36,7 +36,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
         <div class="box">
 
             <div class="box-header with-border">
-                <h3 class="box-title">Orange Credits Applications</h3>
+                <h3 class="box-title">PSGs Applications</h3>
                 <ul class="nav pull-right">
 
                     <a href="<?php echo H_ADMIN_MAIN; ?>&view=orange_credits_applications&do=export&hexport=yes&etype=printer"

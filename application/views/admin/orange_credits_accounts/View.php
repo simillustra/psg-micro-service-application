@@ -36,7 +36,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
         <div class="box">
 
             <div class="box-header with-border">
-                <h3 class="box-title">Orange Credits Accounts</h3>
+                <h3 class="box-title">PSGs Accounts</h3>
                 <ul class="nav pull-right">
 
 

@@ -31,7 +31,7 @@
 	
 	<div class="panel panel-default">
   <!-- Default panel contents -->
-  <div class="panel-heading"><h3 class="panel-title"><i class="fa fa-reorder"></i> Orange Credit Poultry Appraisal <?php echo LANG_DETAILS;?></h3></div>
+  <div class="panel-heading"><h3 class="panel-title"><i class="fa fa-reorder"></i> PSG Poultry Appraisal <?php echo LANG_DETAILS;?></h3></div>
 	<table class="table table-striped table-bordered" data-page-size="200">
 	 <tbody>
 		  	

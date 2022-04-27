@@ -29,7 +29,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
         <div class="panel panel-default">
             <!-- Default panel contents -->
             <div class="panel-heading"><h3 class="panel-title"><i class="fa fa-reorder"></i> <?php echo LANG_UPDATE; ?>
-                    Orange Credit Loan Type</h3></div>
+                    PSG Loan Type</h3></div>
             <div class="panel-body">
 
                 <div class="output"></div>

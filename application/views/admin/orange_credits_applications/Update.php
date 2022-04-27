@@ -28,7 +28,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <i class="fa fa-reorder"></i>
-                    Orange Credits Applications
+                    PSGs Applications
                 </h3>
             </div>
             <div class="panel-body">

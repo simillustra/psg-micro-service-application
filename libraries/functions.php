@@ -536,7 +536,7 @@ function create_orange_credit_plan($param_customer_email, $params_amount)
     $data = array(
         'name' => 'Monthly School Fees contribution - ' . $param_customer_email,
         'interval' => 'monthly',
-        'description' => 'Orange Credit Monthly School Fees contribution for ' . $param_customer_email,
+        'description' => 'PSG Monthly School Fees contribution for ' . $param_customer_email,
         'send_invoices' => true,
         'send_sms' => false,
         'currency' => 'NGN',

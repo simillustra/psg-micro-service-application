@@ -29,7 +29,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
                 <h3 class="panel-title">
                     <i class="fa fa-reorder"></i>
                     <?php echo LANG_CREATE_NEW; ?>
-                    Orange Credit KYC
+                    PSG KYC
                 </h3>
             </div>
             <div class="panel-body">

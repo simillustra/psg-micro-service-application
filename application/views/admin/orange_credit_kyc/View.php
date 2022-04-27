@@ -38,7 +38,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
         <div class="box">
 
             <div class="box-header with-border">
-                <h3 class="box-title">Orange Credit KYC</h3>
+                <h3 class="box-title">PSG KYC</h3>
                 <ul class="nav pull-right">
                     <?php if ($_SESSION['H_USER_SESSION_POSITION'] == 5 && $number_of_entry == 0) { ?>
                         <a href="<?php echo H_ADMIN; ?>&view=orange_credit_kyc&do=add"

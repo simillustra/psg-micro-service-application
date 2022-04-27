@@ -17,7 +17,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
         <div class="box">
 
             <div class="box-header with-border">
-                <h3 class="box-title">OrangeCredit Cities</h3>
+                <h3 class="box-title">PSG Cities</h3>
                 <ul class="nav pull-right">
 
                     <a href="<?php echo H_ADMIN; ?>&view=orange_credit_cities&do=add" class="btn btn-default btn-xs tip"

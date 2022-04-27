@@ -23,7 +23,7 @@
 	
 	<div class="panel panel-default">
   <!-- Default panel contents -->
-  <div class="panel-heading"><h3 class="panel-title"><i class="fa fa-reorder"></i> Orange Credit Poultry Appraisal</h3></div>
+  <div class="panel-heading"><h3 class="panel-title"><i class="fa fa-reorder"></i> PSG Poultry Appraisal</h3></div>
   <div class="panel-body">
    <p>
 	<input id="filter" class="input-sm" type="text" placeholder="<?php echo LANG_QUICK_SEARCH;?>"/>

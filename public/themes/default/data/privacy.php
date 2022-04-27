@@ -1,9 +1,9 @@
 <div class="panel panel-default">
 	<div class="panel-heading">
-		Welcome to Orange Credit
+		Welcome to PSG
 	</div>
 	<div class="panel-body">
-		The Orange Credit service enables you to pay for school fees or rent with loan option. The service is operated by Orange Credit Limited ("We" or "Us") subject to these Terms of Service (Terms)
+		The PSG service enables you to pay for school fees or rent with loan option. The service is operated by PSG Limited ("We" or "Us") subject to these Terms of Service (Terms)
 		<br />
 		<h3>
 			TERMS OF SERVICE
@@ -27,7 +27,7 @@
 			<li class="list-group-item">
 				You authorize us to verify your information. You hereby authorize us to conduct information verification checks on you should we deem it necessary. You further duly authorize us to forward your personal
 				information to verification suppliers, information suppliers and third parties acting on behalf of Us to verify information about you which includes but is not limited to qualification, certification,
-				employer background screening, employment verification, employment references, criminal records, driver’s license validation, passport validation, identity verification and any other personal information
+				employer background screening, employment verification, employment references, criminal records, driverï¿½s license validation, passport validation, identity verification and any other personal information
 				required to validate, verify, and confirmed your information. You understand and agree that your consent declaration will remain valid indefinitely for all existing and future personal verification request,
 				screening, validation and confirmation of information regarding yourself.
 			</li>

@@ -124,14 +124,14 @@ class admin_users_model
     public function successful_registration_notice($params)
     {
         $captionInput = json_decode($params);
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
-        $sms_message .= "Dear " . $captionInput->fullname . " congratulations, your wallet have been activated with ORANGE-CREDIT.\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
+        $sms_message .= "Dear " . $captionInput->fullname . " congratulations, your wallet have been activated with PSG.\r\n";
         $sms_message .= "Acc No:" . $captionInput->account . "\r\n";
         $sms_message .= "Pw: " . $captionInput->password . "\r\n";
         $sms_message .= "Start Saving today\r\n";
 
 
-        $email_message = "Dear " . $captionInput->fullname . " congratulations, your wallet have been activated with ORANGE-CREDIT.\r\n";
+        $email_message = "Dear " . $captionInput->fullname . " congratulations, your wallet have been activated with PSG.\r\n";
         $email_message .= "Acc No:" . $captionInput->account . "\r\n";
         $email_message .= "Pw: " . $captionInput->password . "\r\n";
         $email_message .= "Start Saving today";
@@ -156,15 +156,15 @@ class admin_users_model
     public function getting_started_information($params)
     {
         $captionInput = json_decode($params);
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
-        $sms_message .= "Hi " . $captionInput->fullname . " Welcome to ORANGE-CREDIT.\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
+        $sms_message .= "Hi " . $captionInput->fullname . " Welcome to PSG.\r\n";
         $sms_message .= "To qualify for loan access, you must:\r\n";
         $sms_message .= "(1) Fill your KYC form:\r\n";
         $sms_message .= "(2) Fill your business Info form\r\n";
         $sms_message .= "(3) Start funding your Account\r\n";
         $sms_message .= "Our Team is here to assist you\r\n";
 
-        $email_message = "Hi " . $captionInput->fullname . " Welcome to ORANGE-CREDIT.\r\n";
+        $email_message = "Hi " . $captionInput->fullname . " Welcome to PSG.\r\n";
         $email_message .= "To qualify for loan access, you must:\r\n";
         $email_message .= "(1) Fill your KYC form:\r\n";
         $email_message .= "(2) Fill your business Info form\r\n";

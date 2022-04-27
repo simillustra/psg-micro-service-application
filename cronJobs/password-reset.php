@@ -83,8 +83,8 @@ if ($sql->rowCount() > 0) {
 
         do_sms_update($pwd_hashed, $value->userid);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
-        $sms_message .= "Dear {$value->first_name} {$value->last_name}, Congratulations! Your wallet have been activated with ORANGE-CREDIT.\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
+        $sms_message .= "Dear {$value->first_name} {$value->last_name}, Congratulations! Your wallet have been activated with PSG.\r\n";
         $sms_message .= "Acc No: {$value->phone}"."\r\n";
         $sms_message .= "Pw: " . $password ."\r\n";
 

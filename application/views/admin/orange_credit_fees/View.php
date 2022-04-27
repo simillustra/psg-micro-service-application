@@ -18,7 +18,7 @@
               <div class="box">
               
                <div class="box-header with-border">
-               <h3 class="box-title">Orange Credit Fees</h3>
+               <h3 class="box-title">PSG Fees</h3>
                 <ul class="nav pull-right">
 
 	<a href="<?php echo H_ADMIN;?>&view=orange_credit_fees&do=add" class="btn btn-default btn-xs tip" title="<?php echo LANG_TIP_ADD;?>"><i class="fa fa-plus"></i> <?php echo LANG_ADD;?></a>

@@ -27,7 +27,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
         <div class="panel panel-default">
             <!-- Default panel contents -->
             <div class="panel-heading"><h3 class="panel-title"><i
-                            class="fa fa-reorder"></i> <?php echo LANG_CREATE_NEW; ?> Orange Credit Standing Orders</h3>
+                            class="fa fa-reorder"></i> <?php echo LANG_CREATE_NEW; ?> PSG Standing Orders</h3>
             </div>
             <div class="panel-body">
 

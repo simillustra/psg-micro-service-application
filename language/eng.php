@@ -18,7 +18,7 @@ define('LANG_SUCCESS_TRUNCATE', 'Table truncate was successfully');
 define('LANG_TRUNCATE_DELETE_AUTH', 'Are you sure you want to CLEAR all the records in this TABLE?');
 
 //Reports
-define('LANG_REPORT_TITLE', 'Orange Credit Report');
+define('LANG_REPORT_TITLE', 'PSG Report');
 define('LANG_REPORT_SUB_TITLE', 'Database Report as at <em>' . date('d/m/Y') . '</em>');
 define('LANG_REPORT_TABLE', 'Report Name:');
 

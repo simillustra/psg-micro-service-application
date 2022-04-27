@@ -182,8 +182,8 @@ class orange_credit_notifications_model
     public function successful_registration_notice($params)
     {
         $captionInput = json_decode($params);
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
-        $sms_message .= "Congratulations, your wallet have been activated with ORANGE-CREDIT.";
+        $sms_message = "PSG SUPPORT\r\n";
+        $sms_message .= "Congratulations, your wallet have been activated with PSG.";
         $sms_message .= "Acc No:";
         $sms_message .= "Pw:";
 
@@ -208,7 +208,7 @@ class orange_credit_notifications_model
     {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Txn: credit\r\n";
         $sms_message .= "Acct:" . $captionInput->account . "\r\n";
         $sms_message .= "Amt:" . $captionInput->amount . " Des:trf:senderid(" . substr_replace($captionInput->sender, str_repeat("*", 8), 0, 9). ")" . "\r\n";
@@ -241,7 +241,7 @@ class orange_credit_notifications_model
     {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Txn: debit \r\n";
         $sms_message .= "Acct: " . $captionInput->account . "\r\n";
         $sms_message .= "Amt: " . $captionInput->amount . "Des: trf:recieverid(" . substr_replace($captionInput->receiver, str_repeat("*", 8), 0, 9) . ")" . "\r\n";
@@ -276,7 +276,7 @@ class orange_credit_notifications_model
     {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Loan Approved \r\n";
         $sms_message .= "Loan Amt: " . $captionInput->loan_amount ."\r\n";
         $sms_message .= "Monthly payment: " . $captionInput->monthly . "\r\n";
@@ -309,7 +309,7 @@ class orange_credit_notifications_model
     public function loan_status_notice($params)
     {
         $captionInput = json_decode($params);
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Hello your loan request of N" . $captionInput->loan_amount . " naira has been DECLINED. Please review the comment or Our contact our Support team.";
         $email_message = "Hello " . $captionInput->fullname . " your loan request of N" . $captionInput->loan_amount . " naira has been DECLINED. Please review the comment or Our contact our Support team.";
 
@@ -332,7 +332,7 @@ class orange_credit_notifications_model
     {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Loan amt: " . $captionInput->loan_amount . "\r\n";
         $sms_message .= "Tenor: " . $captionInput->loan_tenor . "\r\n";
         $sms_message .= "Monthly repayment amt: " . $captionInput->repayment_amount . "\r\n";
@@ -361,7 +361,7 @@ class orange_credit_notifications_model
     public function successful_repayment_notice($params)
     {
         $captionInput = json_decode($params);
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Congratulations you have successfully repaid your loan.";
         $email_message = "Congratulations" . $captionInput->fullname . ", you have successfully repaid your loan.";
 
@@ -384,9 +384,9 @@ class orange_credit_notifications_model
     {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
-        $sms_message .= "Hello, You are now eligible to access a loan amount of N" . $captionInput->amount . "from OrangeCredit. Login or contact an Orange Credit agent near you.";
-        $email_message = "Dear " . $captionInput->fullname . ", you are now eligible to access a loan amount of N" . $captionInput->amount . " from OrangeCredit. Login or contact an Orange Credit agent near you.";
+        $sms_message = "PSG SUPPORT\r\n";
+        $sms_message .= "Hello, You are now eligible to access a loan amount of N" . $captionInput->amount . "from PSG. Login or contact an PSG agent near you.";
+        $email_message = "Dear " . $captionInput->fullname . ", you are now eligible to access a loan amount of N" . $captionInput->amount . " from PSG. Login or contact an PSG agent near you.";
 
         $status = "unsent";
         $date = date("Y-m-d H:i:s");
@@ -407,7 +407,7 @@ class orange_credit_notifications_model
     {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Your loan application of N" . $captionInput->loan_amount . " was successful and under review, please allow 24-48hrs for processing. Thank you";
         $email_message = "Dear " . $captionInput->fullname . ", your loan application of N " . $captionInput->loan_amount . " was successful and under review, please allow 24-48hrs for processing. Thank you";
         $status = "unsent";
@@ -429,7 +429,7 @@ class orange_credit_notifications_model
     {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Your KYC has being added and awaiting approval\r\n";
         $sms_message .= "Please allow 24 - 48 hours for verification and approval.\r\n";
         $sms_message .= "If you have stayed longer, please contact Us.";
@@ -457,13 +457,13 @@ class orange_credit_notifications_model
     {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Your KYC has being approved\r\n";
-        $sms_message .= "You are now eligible to apply and access ORANGE-CREDIT loans.\r\n";
+        $sms_message .= "You are now eligible to apply and access PSG loans.\r\n";
         $sms_message .= "Login now and start saving";
 
         $email_message = "Hi ".$captionInput->fullname." Your KYC has being approved\r\n";
-        $email_message .= "You are now eligible to apply and access ORANGE-CREDIT loans.\r\n";
+        $email_message .= "You are now eligible to apply and access PSG loans.\r\n";
         $email_message .= "Login now and start saving";
 
         $status = "unsent";
@@ -485,13 +485,13 @@ class orange_credit_notifications_model
     {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Your KYC form entry has being declined.\r\n";
-        $sms_message .= "Please review again to be eligible to apply and access ORANGE-CREDIT loans.\r\n";
+        $sms_message .= "Please review again to be eligible to apply and access PSG loans.\r\n";
         $sms_message .= "Login now and review, thanks";
 
         $email_message = "Hi ".$captionInput->fullname." Your KYC form entry has being declined.\r\n";
-        $email_message .= "Please review again to be eligible to apply and access ORANGE-CREDIT loans.\r\n";
+        $email_message .= "Please review again to be eligible to apply and access PSG loans.\r\n";
         $email_message .= "Login now and review, thanks";
 
         $status = "unsent";
@@ -513,7 +513,7 @@ class orange_credit_notifications_model
     {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Your business information has being added successfully,";
         $sms_message .= "and its currently being reviewed.\r\n";
         $sms_message .= "This is to help us serve you better";

@@ -11,7 +11,7 @@
 			<h1 class="col-xs-0 hidden-xs">
 				Welcome to
 				<span>
-					Orange Credit
+					PSG
 				</span>
 			</h1>
 			<h2 class="col-xs-0 hidden-xs">

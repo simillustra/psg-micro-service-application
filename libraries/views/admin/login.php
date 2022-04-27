@@ -27,7 +27,7 @@
                         </div>
                         <div class="login-logo">
                             <a href="<?php echo H_CLIENT; ?>"><b>PSG-</b>LIMITED</a>
-                            <h3>Micro-lending <strong>Platform</strong></h3>
+                            <h3>POULTRY SERVICES  <strong> PLATFORM</strong></h3>
                         </div><!-- /.login-logo -->
                         <div class="login-box-body">
                             <p class="login-box-msg"><?php echo LANG_ADMIN_LOGIN; ?></p>

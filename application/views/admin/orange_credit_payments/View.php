@@ -17,7 +17,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
         <div class="box">
 
             <div class="box-header with-border">
-                <h3 class="box-title">Orange Credit Payments</h3>
+                <h3 class="box-title">PSG Payments</h3>
                 <ul class="nav pull-right">
                     <a href="<?php echo H_ADMIN_MAIN; ?>&view=orange_credit_payments&do=export&hexport=yes&etype=printer"
                        target="_blank" class="btn btn-default btn-xs tip" title="<?php echo LANG_TIP_PRINT; ?>"><i

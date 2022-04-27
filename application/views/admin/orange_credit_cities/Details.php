@@ -16,7 +16,7 @@
     <div class="col-xs-12">
     <div class="box">
     <div class="box-header">
-    <h3 class="box-title">Orange Credit Cities</h3>
+    <h3 class="box-title">PSG Cities</h3>
    <ul class="nav pull-right">
 				
 	<a href="<?php echo H_ADMIN;?>&view=orange_credit_cities&do=viewall" class="btn btn-default btn-xs tip" title="<?php echo LANG_TIP_VIEWALL;?>"><i class="fa fa-reply"></i> <?php echo LANG_GO_BACK;?></a>

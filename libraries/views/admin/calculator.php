@@ -115,7 +115,7 @@ if (isset($_POST['submit'])) {
         <div class="clr"></div>
     </div><!--/ Codrops top bar -->
     <header>
-        <h1 class="col-xs-0 hidden-xs">Welcome to <span>Orange Credit</span></h1>
+        <h1 class="col-xs-0 hidden-xs">Welcome to <span>PSG</span></h1>
         <h2 class="col-xs-0 hidden-xs">...helping dreams come alive.</h2>
         <p class="codrops-demos col-xs-0 hidden-xs">
             <a href="<?php echo H_LOGIN; ?>">Home</a>
@@ -138,7 +138,7 @@ if (isset($_POST['submit'])) {
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Orange Credit</a>
+                    <a class="navbar-brand" href="#">PSG</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->

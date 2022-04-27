@@ -540,7 +540,7 @@ function schedule_notification($params)
     try {
         $captionInput = json_decode($params);
 
-        $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
+        $sms_message = "PSG SUPPORT\r\n";
         $sms_message .= "Txn: coupon \r\n";
         $sms_message .= "Coupon Code: " . $captionInput->coupon_code . "\r\n";
         $sms_message .= "Coupon Amount: " . $captionInput->amount . "\r\n";

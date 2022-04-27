@@ -32,7 +32,7 @@ if (!defined('VALID_DIR'))
         <div class="panel panel-default">
             <!-- Default panel contents -->
             <div class="panel-heading"><h3 class="panel-title"><i class="fa fa-reorder"></i> <?php echo
-                    LANG_CREATE_NEW; ?> Orange Credits Accounts</h3></div>
+                    LANG_CREATE_NEW; ?> PSGs Accounts</h3></div>
             <div class="panel-body">
 
                 <div class="output"></div>
