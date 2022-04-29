@@ -26,7 +26,7 @@
                             <img src="<?php echo H_THEME; ?>/images/logo.jpg" width="100"  height="100" class="img-circle border p-1" />
                         </div>
                         <div class="login-logo">
-                            <a href="<?php echo H_CLIENT; ?>"><b>PSG-</b>LIMITED</a>
+                            <a href="<?php echo H_CLIENT; ?>"><b>PSG-</b>&copy;</a>
                             <h3>POULTRY SERVICES  <strong> PLATFORM</strong></h3>
                         </div><!-- /.login-logo -->
                         <div class="login-box-body">
@@ -75,8 +75,8 @@
                         <div class="text-center"><img src="<?php echo H_THEME; ?>/images/logo.jpg" width="100"
                                                       height="100" class="img-circle border p-1" /></div>
                         <div class="login-logo">
-                            <a href="<?php echo H_CLIENT; ?>"><b>Orange</b>Credit</a>
-                            <h3>Micro-lending <strong>Platform</strong></h3>
+                            <a href="<?php echo H_CLIENT; ?>"><b>PSG</b>&copy;</a>
+                            <h3>POULTRY SERVICES <strong>PLATFORM</strong></h3>
                         </div><!-- /.login-logo -->
                         <div class="login-box-body">
                             <div class="output-error"></div>
