@@ -32,7 +32,7 @@ $redirect = false;
 $x = pathinfo($actual_link);
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     if (isset($_GET['pg']) && $_GET['pg'] == '') {
-        header('Location: ' . $actual_link . 'index.php?pg=login');
+        header('Location: ' . $actual_link . 'index.php?pg=info');
         exit();
     }
 }
