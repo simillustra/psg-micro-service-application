@@ -44,22 +44,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'/>
         <title><?php echo H_TITLE; ?></title>
         <link href="<?php echo H_THEME; ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo H_THEME; ?>/css/all.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo H_THEME; ?>/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo H_THEME; ?>/css/datepicker.css" rel="stylesheet"/>
+        <link href="<?php echo H_THEME; ?>/css/chosen.min.css" rel="stylesheet"/>
+        <link href="<?php echo H_THEME; ?>/css/font-awesome-5.8.1.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo H_THEME; ?>/css/ionicons.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo H_THEME; ?>/css/jquery-jvectormap.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo H_THEME; ?>/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo H_THEME; ?>/css/footable.core.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo H_THEME; ?>/css/skins.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo H_THEME; ?>/css/jquery.lightbox.min.css" rel="stylesheet" type="text/css"
               media="screen"/>
-        <link href="<?php echo H_THEME; ?>/css/datepicker.css" rel="stylesheet"/>
-        <link href="<?php echo H_THEME; ?>/css/chosen.min.css" rel="stylesheet"/>
         <link href="<?php echo H_THEME; ?>/css/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo H_THEME; ?>/css/admin.css" rel="stylesheet"/>
-        <script src="<?php echo H_THEME; ?>/js/modernizr.custom.js"></script>
         <link rel="stylesheet" type="text/css" href="<?php echo H_THEME; ?>/css/cookieconsent.min.css"/>
-        <script type="text/javascript" src="libraries/tinymce/js/tinymce/tinymce.min.js"></script>
-        <script type="text/javascript" src="<?php echo H_THEME; ?>/js/jquery-3.4.1.min.js"></script>
+
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic"
               rel="stylesheet" lazyload>
@@ -67,8 +65,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     <?php
     if (get('pg') == 'login') {
         include('libraries/views/admin/login.php');
-    } else
-    if (get('pg') !== 'login' && !isset($_SESSION['H_USER_SESSION'])) {
+    } else if (get('pg') == 'info') {
+        include('libraries/views/admin/about.php');
+    } else if (get('pg') !== 'login' && !isset($_SESSION['H_USER_SESSION'])) {
         include('libraries/views/admin/login.php');
     } else {
     $kyc_Is_Approved = $haccess->checkApprovedKYC($user_personal_info->userid);
@@ -338,6 +337,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         </footer>
     </div><!-- ./wrapper -->
     <?php } ?>
+    <script type="text/javascript" src="<?php echo H_THEME; ?>/js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="libraries/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script type="text/javascript" src="<?php echo H_THEME; ?>/js/jquery-3.4.1.min.js"></script>
     <script src="<?php echo H_THEME; ?>/js/cookieconsent.min.js"></script>
     <script src="<?php echo H_THEME; ?>/js/bootstrap.min.js" type="text/javascript"></script>
     <!-- FastClick -->

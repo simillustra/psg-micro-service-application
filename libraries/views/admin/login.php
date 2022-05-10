@@ -1,16 +1,19 @@
 <body class="login-page">
-   <div id="signup-space" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 navbar-left navbar-right" style="margin-top: 2%; margin-right: 2%;">
+<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="margin-top: 2%;">
+
+</div>
+   <div id="signup-space" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 navbar-left navbar-right" style="margin-top: 2%; margin-right: 1%;">
         <!-- Nav tabs -->
         <ul class="nav nav-tabs nav-justified nav-pills" role="tablist">
             <li class="active">
                 <a href="#home" role="tab" data-toggle="tab" class="btn btn-success">
                     <i class="fas fa-unlock"></i>
-                    <span>SIGNIN</span>
+                    <span>LOGIN</span>
                 </a>
             </li>
             <li>
                 <a href="#profile" role="tab" data-toggle="tab" class="btn btn-danger">
-                    <i class="fas fa-user-plus"></i> <span>SIGNUP</span>
+                    <i class="fas fa-user-plus"></i> <span>REGISTER</span>
                 </a>
             </li>
         </ul>
@@ -67,7 +70,6 @@
                 </form>
             </div>
             <div class="tab-pane fade" id="profile">
-
                 <em id="signUpMsg"></em>
                 <form action="<?php echo H_ADMIN_MAIN . '&view=hsys_users&do=signuppro'; ?>" method="post"
                       name="singnupFrom" id="singnupFrom" enctype="multipart/form-data">
