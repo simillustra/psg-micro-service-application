@@ -19,7 +19,7 @@ include('libraries/functions.php');
 include_once('libraries/class_dbcon.php');
 include_once('libraries/upload_class.php');
 include_once('libraries/system_users.php');
-if(STORE_STATUS !== 'development') {
+if (STORE_STATUS !== 'development') {
     include('cronJobs/activity-notification.php');
 }
 $haccess = new admin_users_model();
@@ -63,12 +63,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
               rel="stylesheet" lazyload>
     </head>
     <?php
-    if (get('pg') == 'login') {
-        include('libraries/views/admin/login.php');
-    } else if (get('pg') == 'info') {
+    if (get('pg') == 'info') {
         include('libraries/views/admin/about.php');
-    } else if (get('pg') !== 'login' && !isset($_SESSION['H_USER_SESSION'])) {
+    }else if (get('pg') == 'login') {
         include('libraries/views/admin/login.php');
+    } else if (get('pg') !== 'login' && !isset($_SESSION['H_USER_SESSION'])) {
+        include('libraries/views/admin/about.php');
     } else {
     $kyc_Is_Approved = $haccess->checkApprovedKYC($user_personal_info->userid);
     ?>
